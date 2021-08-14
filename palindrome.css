@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    fontFamily: "'Satisfy', cursive";
+}
+
+body {
+    background-color: coral;
+    font-family: 'Satisfy', cursive;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+.label {
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    padding-top: 1.75rem;
+    color: rgb(139, 17, 17);
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.label {
+    font-size: 1.4rem;
+}
+
+#check {
+    font-size: 1rem;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.6rem 0.5rem;
+    border-radius: 1rem;
+    width: 40%;
+    border: 2px solid black;
+}
+
+#check:hover{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+#birthday {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 40%;
+}
+#birthday:hover{
+    background-color: black;
+    color: white;
+
+}
+
+#output {
+    font-size: 1.5rem;
+    width: 75%;
+    margin: 0 auto;
+    color: black;
+}
